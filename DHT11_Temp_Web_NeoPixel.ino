@@ -1,6 +1,6 @@
 //This code uses a DHT11 Digital Temperature and Humidity sensor and reports back the temperature of the room as well as the humidity to a website. At the same time it utilizes a strip of NeoPixel LED's to indicate whether or not the room is warm or cool. 
 // Portions of this code were written by Charles Gantt, Curtis Gauger, and the original (unknown) of the basic DHT code example. 
-// This code is released under the Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5) License (https://creativecommons.org/licenses/by-sa/2.5/)
+// This code is released under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License (http://creativecommons.org/licenses/by-sa/4.0/)
 
 #include <SPI.h>  //We will use the SPI library to allow our program to communicate over ethernet via the serial bus.
 #include <Ethernet.h>  //The Ethernet library will allow us to easily use the Ethernet shield
